@@ -1,9 +1,0 @@
-[dependencies]
-tokio = { version = "1", features = ["full"] }
-warp = "0.3"
-serde = { version = "1", features = ["derive"] }
-serde_json = "1.0"
-tungstenite = "0.15"
-futures = "0.3"
-fabric = "1.4.0"  
-ollama = "0.1.41"  
