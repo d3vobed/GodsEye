@@ -34,7 +34,6 @@ impl LLM for GPT {
     }
 
     fn estimate_token_num(&self, text: &str) -> usize {
-        // Replace with actual token estimation logic (e.g., using a library)
         unimplemented!("token estimation not implemented for GPT");
     }
 
@@ -45,7 +44,6 @@ impl LLM for GPT {
         num_samples: usize,
         temperature: f64,
     ) -> Result<(), io::Error> {
-        // Simulate API call using placeholder logic
         println!("Generating code with GPT model (simulated)");
         for i in 0..num_samples {
             let filename = format!("{}/{:02}.rawoutput", response_dir, i + 1);
@@ -67,7 +65,6 @@ impl LLM for GPT4 {
         2000
     }
 
-    // Implement other methods similar to GPT
 }
 
 struct GoogleModel {
